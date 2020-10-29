@@ -20,7 +20,7 @@ If you dont have socat, use `apt install socat` or `yum install socat`, you will
 
 Ping you server.
 
-Assume `ip` is the IP of your server.
+Assume `ip` is the IP(no support domain, just use ip) of your server.
 
 ```
 docker run -it --rm udpping:latest ip 5000
